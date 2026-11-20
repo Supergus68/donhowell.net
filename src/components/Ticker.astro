@@ -1,0 +1,24 @@
+---
+const items = [
+	"Home Automation",
+	"Networking",
+	"Website Builds",
+	"Security Scans",
+	"AI Systems",
+];
+---
+
+<div class="ticker" aria-hidden="true">
+	<div class="ticker-track">
+		{
+			items.map((item) => (
+				<span class="ticker-item">{item}</span>
+			))
+		}
+		{
+			items.map((item) => (
+				<span class="ticker-item">{item}</span>
+			))
+		}
+	</div>
+</div>
